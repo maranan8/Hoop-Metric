@@ -1,0 +1,32 @@
+export interface Player {
+    rank: number;
+    name: string;
+    age: number;
+    team: string;
+    position: string;
+    games_played: number;
+    games_start: number;
+    min_played: number;
+    field_goals: number;
+    field_goal_attempts: number;
+    field_goal_percent: number;
+    three_point: number;
+    three_point_attempts: number;
+    three_point_percent: number;
+    two_point: number;
+    two_point_attempts: number;
+    two_point_percent: number;
+    free_throw: number;
+    free_throw_attempts: number;
+    free_throw_percent: number;
+    o_rebound: number;
+    d_rebound: number
+    t_rebound: number;
+    assists: number
+    steals: number
+    blocks: number;
+    turnovers: number;
+    personal_fouls: number;
+    points: number;
+    triple_doubles: number;
+}
